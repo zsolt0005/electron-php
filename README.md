@@ -15,7 +15,7 @@ Make desktop application using Electron and PHP.
  * To start the application run `npm start`
 
 ### PHP
- * PHP 8.2 is included, you can replace the php folder with your desired php version.
+ * **PHP 8.2** is included, you can replace the php folder with your desired php version.
 
 **!Important** - In the php.ini it is necessary to have the `extension_dir = "ext"` **uncommented**, otherwise it will load the extension from the location you have installed PHP locally
 
