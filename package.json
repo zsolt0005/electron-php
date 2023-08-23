@@ -1,0 +1,26 @@
+{
+  "name": "electron-php",
+  "version": "1.0.0",
+  "description": "Make desktop application using Electron and PHP",
+  "repository": "https://github.com/zsolt0005/electron-php",
+  "keywords": ["electron", "php", "php8.2", "desktop", "application"],
+  "author": "zsolt0005",
+  "license": "Apache-2.0",
+
+  "main": "main.js",
+  "engines": {
+    "node": ">=9.0"
+  },
+
+  "scripts": {
+    "start": "electron ."
+  },
+
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "node-php-server": "^0.1.2"
+  }
+}
